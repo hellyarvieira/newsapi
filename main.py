@@ -1,7 +1,7 @@
 from newsapi import NewsApiClient
 
 # Init
-newsapi = NewsApiClient(api_key='3b3b29e1e0814965b84512b02872b4d7')
+newsapi = NewsApiClient(api_key='')
 
 # /v2/top-headlines
 top_headlines = newsapi.get_top_headlines(q='bitcoin',
